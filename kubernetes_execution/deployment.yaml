@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-kubernetes
+  name: hello-world
 spec:
   selector:
     matchLabels:
-      name: hello-kubernetes
+      name: hello-world
   template:
     metadata:
       labels:
-        name: hello-kubernetes
+        name: hello-world
     spec:
       containers:
       - name: app
