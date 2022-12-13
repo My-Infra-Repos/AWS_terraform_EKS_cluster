@@ -10,4 +10,6 @@ terraform apply
 
 It might take a while for the cluster to be creates (up to 15-20 minutes).
 
-As soon as cluster is ready, you should find a `kubeconfig_my-cluster` kubeconfig file in the current directory.
+As soon as cluster is ready, you should run the following command to configure your kubectl
+`      aws eks --region $(terraform output -raw region) update-kubeconfig  --name $(terraform output    -raw cluster_name)
+`
