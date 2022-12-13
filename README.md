@@ -4,5 +4,5 @@ This repository contains the the sample code necessary to provision an EKS clust
 
 Code samples:
 
-[Basic provisioning of EKS with Terraform](terraform_eks/README.md)
-[Kubernetes files to deploy an "Hello World" application](kubernetes_execution/README.md)
+              [Basic provisioning of EKS with Terraform](terraform_eks/README.md)
+              [Kubernetes files to deploy an "Hello World" application](kubernetes_execution/README.md)
