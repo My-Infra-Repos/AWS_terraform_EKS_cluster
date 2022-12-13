@@ -1,6 +1,6 @@
 # Basic provisioning of EKS with Terraform
 
-You can provision a basic EKS cluster with Terraform with the following commands:
+You can provision a basic EKS cluster with Terraform with the following commands. Just copy this folder locally & execute below commands
 
 ```bash
 terraform init
