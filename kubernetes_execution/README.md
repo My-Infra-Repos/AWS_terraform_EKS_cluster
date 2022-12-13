@@ -1,6 +1,6 @@
 # Kubernetes resources
 
-In this folder you will find the basic resources to deploy [an application that displays a message, the name of the pod and details of the node it's deployed to.](https://github.com/paulbouwer/hello-kubernetes)
+In this folder you will find the basic resources to deploy an application that displays an ngnix hello world image. Just copy this folder & execute below commands
 
 You can deploy the application in your cluster with:
 
